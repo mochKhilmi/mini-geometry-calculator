@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hitung Bentuk Geometri</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Perhitungan Matematika</h1>
+    <div class="container">
+      <div class="luasLingkaran">
+        <label for="radiusOfCircle">Hitung Luas Lingkaran:</label>
+        <input
+          type="number"
+          placeholder="masukan nilai jari-jari lingkaran"
+          id="radiusOfCircle"
+        />
+        <button onclick="hitungLuasLingkaran()">Hitung</button>
+      </div>
+      <div class="luasSegitiga">
+        <label for="radiusOfBase">Hitung Luas Segitiga:</label>
+        <input
+          type="number"
+          placeholder="masukan nilai alas segitiga dalam cm"
+          id="radiusOfBase"
+          required
+        />
+        <input
+          type="number"
+          placeholder="masukan nilai tinggi segitiga dalam cm"
+          id="radiusOfHeight"
+          required
+        />
+        <button onclick="hitungLuasSegitiga()">Hitung</button>
+      </div>
+      <div class="luasPersegiPanjang">
+        <label for="widthOfRectangle">Hitung Luas Persegi Panjang:</label>
+        <input
+          type="number"
+          placeholder="masukan nilai panjang dalam cm"
+          id="widthOfRectangle"
+          required
+        />
+        <input
+          type="number"
+          placeholder="masukan nilai lebar dalam cm"
+          id="wideOfRectangle"
+          required
+        />
+        <button onclick="hitungLuasPersegiPanjang()">Hitung</button>
+      </div>
+      <div class="luasJajarGenjang">
+        <label for="baseOfParallelogram">Hitung Luas Jajar Genjang:</label>
+        <input
+          type="number"
+          placeholder="masukan nilai alas jajar genjang dalam cm"
+          id="baseOfParallelogram"
+          required
+        />
+        <input
+          type="number"
+          placeholder="masukan nilai tinggi jajar genjang dalam cm"
+          id="heightOfParallelogram"
+          required
+        />
+        <button onclick="hitungLuasJajarGenjang()">Hitung</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
